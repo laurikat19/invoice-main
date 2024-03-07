@@ -84,7 +84,7 @@ header {
 }
 
 header h1 {
-    background: #062c50;
+    background: #084177;
     border-radius: 0.25em;
     color: #FFF;
     margin: 0;
@@ -123,6 +123,9 @@ header input {
     position: absolute;
     top: 0;
     width: 100%;
+}
+p.text {
+    color:#0a0a5e;
 }
 
 /* article */
@@ -213,7 +216,7 @@ aside h1 {
     background-image: -moz-linear-gradient(#00ADEE 5%, #0078A5 100%);
     background-image: -webkit-linear-gradient(#00ADEE 5%, #0078A5 100%);
     border-radius: 0.5em;
-    border-color: #0076A3;
+    border-color: #000ba3;
     color: #FFF;
     cursor: pointer;
     font-weight: bold;
