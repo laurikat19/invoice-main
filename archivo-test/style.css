@@ -47,6 +47,7 @@ table {
     table-layout: fixed;
     width: 100%;
     border-collapse: collapse; /* Añadido para evitar problemas de bordes en algunas situaciones */
+    margin-bottom: 20px;
 }
 
 th, td {
@@ -84,7 +85,7 @@ header {
 }
 
 header h1 {
-    background: #084177;
+    background: #062c50;
     border-radius: 0.25em;
     color: #FFF;
     margin: 0;
@@ -124,9 +125,6 @@ header input {
     top: 0;
     width: 100%;
 }
-p.text {
-    color:#0a0a5e;
-}
 
 /* article */
 article,
@@ -135,6 +133,7 @@ table.meta,
 table.inventory {
     margin: 0 0 3em;
     clear: both;
+    page-break-inside: avoid;
 }
 
 article:after {
@@ -216,7 +215,7 @@ aside h1 {
     background-image: -moz-linear-gradient(#00ADEE 5%, #0078A5 100%);
     background-image: -webkit-linear-gradient(#00ADEE 5%, #0078A5 100%);
     border-radius: 0.5em;
-    border-color: #000ba3;
+    border-color: #0076A3;
     color: #FFF;
     cursor: pointer;
     font-weight: bold;
