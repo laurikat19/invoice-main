@@ -47,6 +47,7 @@ table {
     table-layout: fixed;
     width: 100%;
     border-collapse: collapse; /* Añadido para evitar problemas de bordes en algunas situaciones */
+    margin-bottom: 20px;
 }
 
 th, td {
